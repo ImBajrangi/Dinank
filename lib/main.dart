@@ -35,7 +35,7 @@ class BirthdayReminderApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => StudentProvider()..init()),
       ],
       child: MaterialApp(
-        title: "Teacher's Birthday Manager",
+        title: "Dinank",
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
         darkTheme: AppTheme.darkTheme,

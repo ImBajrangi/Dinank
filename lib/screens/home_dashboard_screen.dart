@@ -99,7 +99,7 @@ class _HomeDashboardScreenState extends State<HomeDashboardScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Welcome to Birthday Radar! 👋",
+                            "Welcome to Dinank! 👋",
                             style: GoogleFonts.plusJakartaSans(
                               fontSize: 17,
                               fontWeight: FontWeight.w800,
@@ -327,7 +327,7 @@ class _HomeDashboardScreenState extends State<HomeDashboardScreen> {
                                       Row(
                                         children: [
                                           Text(
-                                            "BIRTHDAY RADAR",
+                                            "DINANK",
                                             style: GoogleFonts.plusJakartaSans(
                                               fontSize: 11,
                                               fontWeight: FontWeight.w800,

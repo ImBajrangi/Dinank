@@ -222,7 +222,7 @@ void main() {
       );
       await tester.pump(const Duration(milliseconds: 100));
 
-      expect(find.text("BIRTHDAY RADAR"), findsOneWidget);
+      expect(find.text("DINANK"), findsOneWidget);
       expect(find.byType(TodayCelebrantsBanner), findsOneWidget);
       expect(find.byType(StatBadge), findsNWidgets(4));
       expect(find.byType(BirthdayTrendCard), findsOneWidget);

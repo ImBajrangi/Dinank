@@ -921,7 +921,7 @@ class _ImportExcelScreenState extends State<ImportExcelScreen> {
                   _buildStepRow("1", "Open your student roster spreadsheet on Google Sheets."),
                   _buildStepRow("2", "Click the green 'Share' button in the top right corner."),
                   _buildStepRow("3", "Under General Access, change 'Restricted' to 'Anyone with the link' (Viewer)."),
-                  _buildStepRow("4", "Click 'Copy link' and paste it in Birthday Radar."),
+                  _buildStepRow("4", "Click 'Copy link' and paste it in Dinank."),
                 ],
               ),
             ),
@@ -1308,7 +1308,7 @@ class _ImportExcelScreenState extends State<ImportExcelScreen> {
                         ),
                         const SizedBox(height: 3),
                         Text(
-                          "Auto-mapped columns recognized by Birthday Radar",
+                          "Auto-mapped columns recognized by Dinank",
                           style: TextStyle(fontSize: 12, color: Colors.grey.shade500),
                         ),
                       ],
@@ -1480,7 +1480,7 @@ class _ImportExcelScreenState extends State<ImportExcelScreen> {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    "Birthday Radar automatically maps synonyms regardless of uppercase or lowercase headers:",
+                    "Dinank automatically maps synonyms regardless of uppercase or lowercase headers:",
                     style: TextStyle(fontSize: 11.5, color: Colors.grey.shade500),
                   ),
                   const SizedBox(height: 10),
